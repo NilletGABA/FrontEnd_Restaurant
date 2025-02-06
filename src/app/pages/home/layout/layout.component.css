@@ -7,7 +7,7 @@
 
 /* General toolbar styles */
 mat-toolbar {
-    background-color: #1e88e5; /* Color primario */
+    background-color: #0112ff; /* Color primario */
     color: white;
     padding: 0 16px;
     display: flex;
@@ -45,7 +45,7 @@ mat-toolbar button:hover {
 }
 
 mat-toolbar button.active {
-    background-color: #ffa726; /* Nuevo color para la opción seleccionada */
+    background-color: #e70a0a; /* Nuevo color para la opción seleccionada */
     font-weight: bold;
 }
 
