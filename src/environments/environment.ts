@@ -4,6 +4,6 @@ export const environment = {
     //paypalReturnUrl: 'http://localhost:4200/pages/reservation/form'
 
     HOST: 'https://restaurant-reservation-api-z6ni.onrender.com/api/v1',
-    paypalReturnUrl: 'https://edteamreserve.netlify.app/pages/reservation/form'
+    paypalReturnUrl: 'https://raulgb.netlify.app/pages/reservation/form'
     
 };
