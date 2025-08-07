@@ -65,7 +65,7 @@
                         <p><strong>Fecha de la Reserva:</strong> {{ reservation.reservationDate }}</p>
                         <p><strong>Número de Personas:</strong> {{ reservation.numberOfPeople }}</p>              
                         <p><strong>Información Adicional:</strong> {{ reservation.additionalInfo }}</p>
-                        <p><strong>Total a Pagar:</strong> {{ reservation.totalAmount | currency }}</p>
+                        <p><strong>Total a Pagar:</strong> {{ reservation.totalAmount | currency:'s/ ':'symbol':'1.2-2' }}</p>
                     </div>
             
 					<div class="action-buttons">
