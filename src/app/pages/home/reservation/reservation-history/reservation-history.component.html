@@ -24,7 +24,7 @@
 		  <!-- Monto Total Column -->
 		  <ng-container matColumnDef="totalAmount">
 			<th mat-header-cell *matHeaderCellDef> Monto Total </th>
-			<td mat-cell *matCellDef="let reservation"> {{ reservation.totalAmount | currency }} </td>
+			<td mat-cell *matCellDef="let reservation"> {{ reservation.totalAmount | currency:'s/ ':'symbol':'1.2-2' }} </td>
 		  </ng-container>
 	
 		  <!-- Estado Column -->

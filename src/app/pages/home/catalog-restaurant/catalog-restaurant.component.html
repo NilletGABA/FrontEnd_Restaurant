@@ -25,7 +25,7 @@
                         </mat-card-header>
                         <mat-card-content>
                             <p>Teléfono: {{ restaurant.phoneNumber }}</p>                          
-                            <p>Precio por persona: {{ restaurant.pricePerPerson | currency }}</p>                                                   
+                            <p>Precio por persona: {{ restaurant.pricePerPerson | currency:'s/ ':'symbol':'1.2-2' }}</p>                                                   
                         </mat-card-content>
                         <mat-card-actions>
                             <button mat-raised-button class="reserve-button" (click)="navigateToReservationForm(restaurant.id)">Reservar</button>
